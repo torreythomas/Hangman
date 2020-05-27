@@ -1,7 +1,13 @@
-html{
-    background-color: rgba(0,0,0,0.9);
+
+
+html { 
+    background: url(./pumpkin.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     color: white;
-}
+  }
 
 body {
     width: 100vw;
@@ -24,14 +30,15 @@ body {
     font-size: 50px;
     font-family: 'ZCOOL KuaiLe', cursive;
     text-align: center;
-    height: 50px;
 }
 
 
 
 #wrongguess{
     color: white;
-    font-size: 50px;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
 }
 
 
@@ -43,7 +50,7 @@ font-family: 'ZCOOL KuaiLe', cursive;
 
 #lives{
     color: orange;
-    font-size: 50px;    
+    font-size: 30px;    
 }
 
 #win-count{
@@ -58,7 +65,7 @@ font-family: 'ZCOOL KuaiLe', cursive;
     color: white;
     font-family: 'ZCOOL KuaiLe', cursive;
     font-size: 50px;  
-    z-index: 3;
+    margin: 0px;
     animation: blink-animation .1s steps(5, start) infinite;
   -webkit-animation: blink-animation 1s steps(5, start) infinite;
 }
@@ -87,8 +94,8 @@ font-family: 'ZCOOL KuaiLe', cursive;
 }
 
 
-#wrong-gue {
-    
+.wrongs-container {
+    margin-top: -10px;
 }
 
 
@@ -104,7 +111,18 @@ font-family: 'ZCOOL KuaiLe', cursive;
 /* SMARTPHONES PORTRAIT */
 @media only screen and (min-width: 300px) {
 
- 
+    .title{
+        color: orange;
+        font-family: 'Creepster', cursive;
+        font-size: 30px;
+    }
+
+    .press-key{
+        color:orange;
+        font-family: 'Creepster', cursive;
+        font-size: 20px;
+    }
+    
 }
 
 /* SMARTPHONES LANDSCAPE */
@@ -117,13 +135,33 @@ font-family: 'ZCOOL KuaiLe', cursive;
 
 /* TABLETS PORTRAIT */
 @media only screen and (min-width: 768px) {
+    .title{
+        color: orange;
+        font-family: 'Creepster', cursive;
+        font-size: 60px;
+    }
 
-
+    .press-key{
+        color:orange;
+        font-family: 'Creepster', cursive;
+        font-size: 40px;
+    }
+    
 }
 
 
 /* TABLET LANDSCAPE / DESKTOP */
 @media only screen and (min-width: 1024px) {
 
-
+    .title{
+        color: orange;
+        font-family: 'Creepster', cursive;
+        font-size: 60px;
+    }
+    .press-key{
+        color:orange;
+        font-family: 'Creepster', cursive;
+        font-size: 40px;
+    }
+    
 }    
